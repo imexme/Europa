@@ -1,0 +1,138 @@
+
+   #png  {
+    width:90px;
+    height:90px;     
+    top:20px;
+    position: relative;
+    left: -45px;
+    cursor:pointer;
+
+}
+.footer {
+   height: 350px;
+   width: 600;
+   position: fixed;
+   margin-top:520px;
+   background-color: rgb(199, 182, 238); 
+    } 
+
+    p {
+    border-bottom:1px #b92baa;
+    padding-bottom:15px;
+    font-size:57px
+    } 
+ 
+    #slider {
+    width:800px;
+    top:550px;
+    position: fixed;    
+    }
+    #header {
+    width:260px;
+    height:260px;
+    position:absolute;
+    right:0;
+    border:1px solid #b92baa;
+    margin-left:40px;
+    padding:20px 40px;
+    border-radius:3px;
+    box-shadow:0 0 4px rgb(226, 108, 255)
+    }
+    #sidebar {
+    position:absolute;
+    top:100px;
+    left:43px;
+    }
+    #sidebar1 {
+    position:absolute;
+    top:100px;
+    left:58px;
+    }
+
+    h4 {
+        font-family:'Bestania',serif;
+        font-size: 7em;      
+      }
+    
+    h3 {
+    font-family:'Roboto Slab',serif
+    }
+
+    h1 {
+        font-family:'Roboto Slab',serif
+        }
+    p { font-family:'Roboto Slab',serif
+            }
+ 
+    input[type=text] {
+    margin-top:10px;
+    padding:10px;
+    width:100%;
+    font-size:15px;
+    border-radius:2px;
+    border:1px solid #b92baa;
+    font-family:'Roboto Slab',serif
+
+    }
+
+
+    input[type=email] {
+        margin-top:10px;
+        padding:10px;
+        width:100%;
+        font-size:15px;
+        border-radius:2px;
+        border:1px solid #b92baa;
+        font-family:'Roboto Slab',serif
+    
+        }
+
+    h4 {
+    font-size:14px;
+    font-family:'Roboto Slab',serif
+
+
+    }
+    div#title {
+    position:absolute;
+    top:300px;
+    left:650px
+    }
+    select {
+    padding:6px;
+    width:100%;
+    font-size:15px;
+    border-radius:2px;
+    border:3px solid #33ba79
+    }
+    textarea {
+    padding:6px;
+    font-size:15px;
+    border-radius:2px;
+    border:1px solid #b92baa;
+    margin-top:10px;
+    height:80px;
+    width:100%;
+    font-family:'Roboto Slab',serif
+
+    }
+    button {
+    background:#9f0f85;
+    border:none;
+    color:rgb(255, 255, 255);
+    width:100%;
+    font-size:17px;
+    padding:8px;
+    border-radius:3px;
+    cursor:pointer;
+    margin-top:35px
+    }
+    #email {
+        padding:6px;
+        font-size:15px;
+        border-radius:2px;
+        border:1px solid #b92baa;
+        margin-top:10px;
+        height:80px;
+        width:100%
+        }
