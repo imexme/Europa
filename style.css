@@ -1,32 +1,39 @@
 
-/* Navbar section */
 
-.nav {
-    width: 100%;
-    height: 25px;
-    position: fixed;
-    line-height: 35px;
-    text-align: center;
-}
 
-.nav div.logo {
+
+
+
+/* Navbar section + <h> tags */
+
+/* .nav {
+    width: 70%;
+    height: 225px;
+} */
+
+/* .nav div.logo {
     float: center;
     width: auto;
     display: inline;
     height: auto;
     padding-left: 15rem;
-}
+} */
 
 /* .nav div.logo a {
     text-decoration: 
     color: #fff;
     font-size: 2.5rem;
 } */
+/* .logo {
+  display: flex;
+  justify-content: center;
+} */
 
-
-.nav div.main_list {
+/* .nav div.main_list {
     height: 45px;
-    float: right;
+    float: upp;
+    display: flex;
+    justify-content: right;
 }
 
 .nav div.main_list ul {
@@ -50,46 +57,65 @@
     color: rgb(137, 9, 241);
     line-height: 65px;
     font-size: 1.4rem;
-}
+} */
 
-.nav div.main_list ul li a:hover {
+/* .nav div.main_list ul li a:hover {
   color: rgb(225, 230, 169);}
+ */
 
+ .nav img { 
 
-
+  position: absolute;
+  top: 58%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}  
+ 
+.nav:hover img { 
+} 
+ 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 
-    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
-    'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: 
+    'Lobster', 'Bold';
+  
 }
 
-.heading {
+/* .heading {
   position: absolute;
   text-align: center;
-  top: 30%;
   width: 100%;
-}
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+} */
 .heading h1 {
-  color: rgb(137, 9, 241);
-  /* background: linear-gradient(to right, #005B9A ,#74C2E1); */
-
-  font-size: 60px;
+  letter-spacing: 0.3rem;
+  font-size: 180px;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-image: url('stars.jpeg' );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
 }
 .heading h3 {
-  color: rgb(225, 230, 169);
-  font-size: 20px;
+  color: rgba(249, 255, 189, 0.244);
+  font-size: 50px;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
 }
 #particles-js {
   background: rgb(0, 0, 0);
-  height: 100vh;
-}
-
-.banner-text{
-  color:#fff;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
+  height:100vh;
 }
 
 
+
+ 
